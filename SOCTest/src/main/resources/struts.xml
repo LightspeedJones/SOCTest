@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+    <constant name="struts.devMode" value="true" />
+
+    <package name="org.SOCTest.action" extends="struts-default">
+        <action name="index">
+            <result>/index.jsp</result>
+        </action>
+        
+        <action name="saveExame" class="org.SOCTest.action.SaveAction">
+		    <result name="success">/save.jsp</result>
+		</action>
+		
+		<action name="reportExame" class="org.SOCTest.action.ListarExamesAction" method="execute">
+			<result name="REPORT">/report.jsp</result>
+		</action>
+		
+		<action name="updateExame" class="org.SOCTest.action.UpdateExameAction">
+			<result name="UPDATE">/update.jsp</result>
+		</action>
+		
+		<action name="deleteExame" class="org.SOCTest.action.DeleteExameAction">
+			<result name="DELETE" type="chain">reportExame</result>
+		</action>
+    </package>
+
+</struts>
