@@ -9,7 +9,7 @@
 
     <package name="org.SOCTest.action" extends="struts-default">
         <action name="index">
-            <result>/index.jsp</result>
+            <result>/report.jsp</result>
         </action>
         
         <action name="saveExame" class="org.SOCTest.action.SaveAction">

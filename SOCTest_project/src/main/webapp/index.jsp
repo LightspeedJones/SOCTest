@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
@@ -6,8 +5,11 @@
     <meta charset="UTF-8">
     <title>Basic Struts 2 Application - Welcome</title>
   </head>
+  <style>
+  	html * {font-family: "Trebuchet MS", Helvetica, sans-serif}
+  </style>
   <body>
-    <h1>oi felipe</h1>
+    <h1>Exames</h1>
 	
 	<p><a href="save.jsp">Cadastrar exame</a></p>
 	<p><a href="reportExame"/>Listar todos<p>

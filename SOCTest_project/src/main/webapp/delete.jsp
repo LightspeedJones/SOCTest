@@ -4,7 +4,6 @@
 <title>Delete</title>
 </head>
 <body>
-	<h2>Struts 2 Create, Read, Update and Delete (CRUD) Example using JDBC</h2>
 	<span><s:property value="msg" /></span><br><br>
 	<a href="reportExame">
 		<button type="button">Report</button>
