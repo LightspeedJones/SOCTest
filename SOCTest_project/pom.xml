@@ -4,12 +4,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>SOCTest</groupId>
-  <artifactId>SOCTest</artifactId>
+  <groupId>SOCTest_project</groupId>
+  <artifactId>SOCTest_project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>SOCTest Maven Webapp</name>
+  <name>SOCTest_project Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -45,9 +45,10 @@
   </dependencies>
 
   <build>
-    <finalName>SOCTest</finalName>
+    <finalName>SOCTest_project</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
+      
       	<plugin>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-maven-plugin</artifactId>
@@ -64,7 +65,6 @@
                 </scanTargets>
             </configuration>
         </plugin>
-      
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.1.0</version>

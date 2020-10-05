@@ -9,7 +9,7 @@
 
     <package name="org.SOCTest.action" extends="struts-default">
         <action name="index">
-            <result>index.jsp</result>
+            <result>/index.jsp</result>
         </action>
         
         <action name="saveExame" class="org.SOCTest.action.SaveAction">
@@ -27,6 +27,8 @@
 		<action name="deleteExame" class="org.SOCTest.action.DeleteExameAction">
 			<result name="DELETE" type="chain">reportExame</result>
 		</action>
+		
+		<action name="ReturnExames" class="org.SOCTest.service.ReturnExames" method="returnData"></action>
     </package>
 
 </struts>
