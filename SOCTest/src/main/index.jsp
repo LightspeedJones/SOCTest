@@ -7,7 +7,7 @@
     <title>Basic Struts 2 Application - Welcome</title>
   </head>
   <body>
-    <h1>oi felipe</h1>
+    <h1>Exames</h1>
 	
 	<p><a href="save.jsp">Cadastrar exame</a></p>
 	<p><a href="reportExame"/>Listar todos<p>
